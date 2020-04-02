@@ -13,6 +13,7 @@
 		E2F07F9E2435B12E008F68F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F07F9D2435B12E008F68F4 /* Assets.xcassets */; };
 		E2F07FA12435B12E008F68F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F07FA02435B12E008F68F4 /* Preview Assets.xcassets */; };
 		E2F07FA42435B12E008F68F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F07FA22435B12E008F68F4 /* LaunchScreen.storyboard */; };
+		E2F07FAD2435B142008F68F4 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07FAC2435B142008F68F4 /* Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E2F07FA02435B12E008F68F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2F07FA32435B12E008F68F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F07FA52435B12E008F68F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F07FAC2435B142008F68F4 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E2F07F962435B12D008F68F4 /* banner-ui */ = {
 			isa = PBXGroup;
 			children = (
+				E2F07FAB2435B136008F68F4 /* Modifiers */,
 				E2F07F972435B12D008F68F4 /* AppDelegate.swift */,
 				E2F07F992435B12D008F68F4 /* SceneDelegate.swift */,
 				E2F07F9B2435B12D008F68F4 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				E2F07FA02435B12E008F68F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2F07FAB2435B136008F68F4 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07FAC2435B142008F68F4 /* Banner.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F07F982435B12D008F68F4 /* AppDelegate.swift in Sources */,
+				E2F07FAD2435B142008F68F4 /* Banner.swift in Sources */,
 				E2F07F9A2435B12D008F68F4 /* SceneDelegate.swift in Sources */,
 				E2F07F9C2435B12D008F68F4 /* ContentView.swift in Sources */,
 			);
